@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/java.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <title>Cloudrp by DrQwerciak</title>
+  </head>
+  <body>
+    <div class="video-container">
+      <iframe
+        src="https://www.youtube.com/embed/t4vaFGkH0fo?autoplay=1&mute=1"
+        frameborder="0"
+        allowfullscreen
+        allow="autoplay; encrypted-media"
+        style="width: 100%; height: 100%"
+      >
+      </iframe>
+      <div class="video-overlay"></div>
+    </div>
+    <img src="/html/img/poprawka512x512.png" alt="Logo Strony" class="logo" />
+    <!-- ADMINISTRACJA -->
+    <!-- <div class="center">
+        <div class="list">
+            <div class="members">
+                <div class="card active">
+                    <img class="pfp" src="https://media.discordapp.net/attachments/1202344759751102474/1209499548695666698/Projekt_bez_nazwy-removebg-preview.png?ex=660c0f3b&is=65f99a3b&hm=cccd67618e9fbb8f12c55ea8fd59e11afe011f1b4fb93749024f2abc9d2ee92c&=&format=webp&quality=lossless" alt="a">
+                    <div class="username">Test0</div>
+                    <div class="sub">Owner</div>
+                    <div class="socials">
+                        <a href="https://discord.gg/gripestudio" target="_blank"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="pfp" src="https://media.discordapp.net/attachments/1202344759751102474/1209499548695666698/Projekt_bez_nazwy-removebg-preview.png?ex=660c0f3b&is=65f99a3b&hm=cccd67618e9fbb8f12c55ea8fd59e11afe011f1b4fb93749024f2abc9d2ee92c&=&format=webp&quality=lossless" alt="b">
+                    <div class="username">Test1</div>
+                    <div class="sub">Owner</div>
+                    <div class="socials">
+                        <a href="https://discord.gg/gripestudio" target="_blank"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="pfp" src="https://media.discordapp.net/attachments/1202344759751102474/1209499548695666698/Projekt_bez_nazwy-removebg-preview.png?ex=660c0f3b&is=65f99a3b&hm=cccd67618e9fbb8f12c55ea8fd59e11afe011f1b4fb93749024f2abc9d2ee92c&=&format=webp&quality=lossless" alt="b">
+                <div class="username">DrQwerciak</div>
+                <div class="sub">Owner</div>
+                <div class="socials">
+                    <a href="https://github.com/DrQwerciaks" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://discord.gg/gripestudio" target="_blank"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div> -->
+
+    <header>
+      <div class="muzika">
+        <div id="slikamuz"></div>
+        <audio autoplay id="LoadMuzika">
+          <source src="/html/img/NonStopPopFMHosted.mp3" type="audio/mpeg" />
+        </audio>
+        <div class="nazivp">
+          <h2>Non-Stop-Pop FM</h2>
+          <h3>Pop, R&B, Dance-pop Music Mix</h3>
+        </div>
+        <div class="crtice">
+          <div class="listening">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 26">
+              <defs>
+                <style>
+                  .wave {
+                    fill: #d3d3d3;
+                  }
+                </style>
+              </defs>
+              <g id="audio-wave" data-name="audio-wave">
+                <rect
+                  id="wave-5"
+                  class="wave"
+                  x="32"
+                  y="7"
+                  width="4"
+                  height="12"
+                  rx="2"
+                  ry="2"
+                />
+                <rect
+                  id="wave-4"
+                  class="wave"
+                  x="24"
+                  y="2"
+                  width="4"
+                  height="22"
+                  rx="2"
+                  ry="2"
+                />
+                <rect
+                  id="wave-3"
+                  class="wave"
+                  x="16"
+                  width="4"
+                  height="26"
+                  rx="2"
+                  ry="2"
+                />
+                <rect
+                  id="wave-2"
+                  class="wave"
+                  x="8"
+                  y="5"
+                  width="4"
+                  height="16"
+                  rx="2"
+                  ry="2"
+                />
+                <rect
+                  id="wave-1"
+                  class="wave"
+                  y="9"
+                  width="4"
+                  height="8"
+                  rx="2"
+                  ry="2"
+                />
+                <rect
+                  id="wave-5-2"
+                  data-name="wave-4"
+                  class="wave"
+                  x="72"
+                  y="7"
+                  width="4"
+                  height="12"
+                  rx="2"
+                  ry="2"
+                />
+                <rect
+                  id="wave-4-2"
+                  data-name="wave-5"
+                  class="wave"
+                  x="64"
+                  y="2"
+                  width="4"
+                  height="22"
+                  rx="2"
+                  ry="2"
+                />
+                <rect
+                  id="wave-3-2"
+                  data-name="wave-3"
+                  class="wave"
+                  x="56"
+                  width="4"
+                  height="26"
+                  rx="2"
+                  ry="2"
+                />
+                <rect
+                  id="wave-2-2"
+                  data-name="wave-2"
+                  class="wave"
+                  x="48"
+                  y="5"
+                  width="4"
+                  height="16"
+                  rx="2"
+                  ry="2"
+                />
+                <rect
+                  id="wave-1-2"
+                  data-name="wave-1"
+                  class="wave"
+                  x="40"
+                  y="9"
+                  width="4"
+                  height="8"
+                  rx="2"
+                  ry="2"
+                />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="discord">
+      <a
+        href="https://discord.gg/c-rp"
+        target="_blank"
+        rel="noopener noreferrer"
+        onclick="window.invokeNative('openUrl', 'https://discord.gg/c-rp');"
+        ><img src="img/Discord.png"
+      /></a>
+    </div>
+
+    <!--<div class="tiktok">
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" onclick="window.invokeNative('openUrl', 'https://www.tiktok.com/@onlyrpeu');"><img src="img/Tiktok.png"></a>
+    </div> -->
+
+    <div class="website">
+      <a
+        href="https://cloudrp.pl/"
+        target="_blank"
+        rel="noopener noreferrer"
+        onclick="window.invokeNative('openUrl', 'https://cloudrp.pl/');"
+        ><img src="img/icons8-globe-50.png"
+      /></a>
+    </div>
+
+    <div class="menu-container">
+      <div class="arrow-up">
+        <img src="/html/img/ARROW_UP.png" width="1.75%" />
+        <span class="menu-text">PODGŁOŚNIJ</span>
+      </div>
+      <div class="arrow-down">
+        <img src="/html/img/ARROW_DOWN.png" width="1.75%" />
+        <span class="menu-text">ŚCISZ</span>
+      </div>
+      <!--  <div class="music-change">
+            <img src="/html/img/ARROW_LEFT.png" width="1.75%">
+            <img src="/html/img/ARROW_RIGHT.png" width="1.75%">
+            <span class="menu-text">ZMIEŃ MUZYKĘ</span>
+        </div>-->
+      <div class="space">
+        <img src="/html/img/SPACE.png" width="4%" />
+        <span class="menu-text" id="text">WYCISZ</span>
+      </div>
+    </div>
+    <div class="pozadina">
+      <footer>
+        <div id="loading">
+          <div class="posto" id="Punjenje-tekst">0%</div>
+          <div class="progress">
+            <span
+              class="progress-bar"
+              id="Punjenje-Bar"
+              style="width: 0%"
+            ></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        let cards = document.querySelectorAll(".card");
+        let currentCard = 0;
+
+        setInterval(function () {
+          cards[currentCard].classList.remove("active");
+          currentCard = (currentCard + 1) % cards.length;
+          cards[currentCard].classList.add("active");
+        }, 3000);
+      });
+    </script>
+  </body>
+</html>
